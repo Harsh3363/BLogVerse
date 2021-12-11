@@ -1,2 +1,2 @@
 # blog-v-1
-This is the initial version of my blog website.
+Created a Simple Blog website where user can read the blogs written by the author, built with React JS
