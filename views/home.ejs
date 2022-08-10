@@ -1,0 +1,13 @@
+<%-include("partials/header")-%>
+
+<h1>HOME</h1>
+<p><%=  homecontent %></p>
+<% posts.forEach(function(post){%>
+
+<h1>  <%=  post.composeTitle %>  </h1>
+
+<p><%=  post.composeBody.substring(0,100) + "....." %> <a href="http://localhost:3000/post/<%= post.composeTitle %>">Read more</a>  </p>
+
+<%  }); %>
+
+<%-include("partials/footer")-%>
