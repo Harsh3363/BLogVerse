@@ -1,4 +1,4 @@
-# blog-v-1
+# BlogVerse
 Created a Simple Blog website where user can read the blogs written by the author, built using ReactJS, NodeJS have used EJS so that code repeatation decreases. To run use this you need to type command <h3>nodemon app.js</h3> in the command line. Now you will see a interface like this -
 
 
